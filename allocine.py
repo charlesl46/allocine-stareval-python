@@ -13,5 +13,3 @@ def get_stars(query : str):
     presse = stareval[0].find('span',{"class" : "stareval-note"}).text
     spectateurs = stareval[1].find('span',{"class" : "stareval-note"}).text
     return {"presse" : presse,"spectateurs" : spectateurs}
-
-print(get_stars("the creator"))
