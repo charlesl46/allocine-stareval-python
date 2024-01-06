@@ -10,7 +10,7 @@ from allocine import get_stars
 print(get_stars("Avatar"))
 
 ```
-```
-{"presse" : "4,3","spectateurs" : "4,3"}
+```sh
+{'title': 'Avatar', 'release_date': '16/12/2009', 'presse': '4,3', 'spectateurs': '4,3'}
 ```
 
